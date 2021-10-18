@@ -19,7 +19,7 @@
 
             <!-- Scaled and rotated Label -->
             <Label x:Name="label"
-               Text="TEXT"
+               Text="LEE"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
 
