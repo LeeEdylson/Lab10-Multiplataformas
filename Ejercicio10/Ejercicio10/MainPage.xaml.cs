@@ -13,6 +13,22 @@ namespace Ejercicio10
         public MainPage()
         {
             InitializeComponent();
+            Item1.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new BindingModeDemo());
+            };
+            Item2.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ListViewDemo());
+            };
+            Item3.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new PickerDemo());
+            };
+            Item4.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ViewToViewDemo());
+            };
         }
     }
 }
